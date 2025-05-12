@@ -575,7 +575,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(97.3,279.2,1,1,0,0,0,77.3,29.2);
 	this.instance._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(82).to({_off:false},0).to({y:219.2},19,cjs.Ease.quadOut).wait(67));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(67).to({_off:false},0).to({y:219.2},19,cjs.Ease.quadOut).wait(82));
 
 	// CTA
 	this.instance_1 = new lib.CTA();
