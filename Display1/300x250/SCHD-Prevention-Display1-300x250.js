@@ -920,7 +920,7 @@ if (reversed == null) { reversed = false; }
 
 	// PlantsB mc
 	this.instance_5 = new lib.Plantmc();
-	this.instance_5.setTransform(254,74.05,0.21,0.21,0,0,0,0.5,1);
+	this.instance_5.setTransform(258,96.05,0.21,0.21,0,0,0,0.5,1);
 	this.instance_5._off = true;
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(127).to({_off:false},0).wait(41));
