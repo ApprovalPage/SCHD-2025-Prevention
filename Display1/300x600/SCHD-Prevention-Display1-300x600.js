@@ -905,11 +905,18 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_5).wait(127).to({_off:false},0).wait(41));
 
-	// Path mc
-	this.instance_6 = new lib.Pathmc();
-	this.instance_6.setTransform(150,103.7,0.2778,0.2778,0,0,0,0.2,-1540.3);
+	// PlantsB mc LL
+	this.instance_6 = new lib.Plantmc();
+	this.instance_6.setTransform(80.1,466.2,0.21,0.21,0,0,0,0.5,1);
+	this.instance_6._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(168));
+	this.timeline.addTween(cjs.Tween.get(this.instance_6).wait(132).to({_off:false},0).wait(36));
+
+	// Path mc
+	this.instance_7 = new lib.Pathmc();
+	this.instance_7.setTransform(150,103.7,0.2778,0.2778,0,0,0,0.2,-1540.3);
+
+	this.timeline.addTween(cjs.Tween.get(this.instance_7).wait(168));
 
 	// BKGD
 	this.shape_2 = new cjs.Shape();
